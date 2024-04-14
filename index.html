@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header"><h1 class="h">AtokStrawberry</h1>
+        <img id="header-img" width="100" src="https://png.pngtree.com/png-clipart/20220124/original/pngtree-strawberry-logo-cute-logo-small-icon-png-image_7190702.png" alt="Product Logo" > 
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+<br>
+    <main>
+        <section id="hero">
+            <h1>Organic Strawberry in Atok</h1>
+            <a href="#pricing" class="hero-button">Buy Now</a>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <p>Healthy</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <p>Fresh</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <p>Delicious</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <p>Organic</p><br>
+            </div>
+        </section>
+
+        <section id="video-frame">
+            <h2>Product Video</h2>
+            <iframe style="margin-left: auto; margin-right: auto; display: block;" id="video" width="560" height="315" src="Strawberry.mp4" title="Product Video" frameborder="0" allowfullscreen></iframe>
+        </section> 
+<br>
+        <h2>Pricing</h2>
+        <section id="pricing">
+            
+            <div class="pricing-card">
+                <h2>1 Kilogram </h2>
+                <p>Free Delivery Around Baguio</p>
+                <p>Additional 50 Php Delivery Fee Outside Baguio</p>
+                <p>Additional 100 Php Delivery Fee Outside Benguet</p>
+                <span class="price"></span>
+                <a href="#" class="buy-button">250 Php Buy Now</a>
+            </div>
+
+            <div class="pricing-card">
+                <h2>5 Kilograms</h2>
+                <p>Free Delivery</p>
+                <p>No Discount</p>
+                <p>Around Baguio Only</p>
+                <span class="price"></span>
+                <a href="#" class="buy-button">1,250 Php Buy Now</a>
+            </div>
+
+            <div class="pricing-card">
+                <h2>12 Kilograms</h2>
+                <p>Free Delivery</p>
+                <p>10% Discount Around Baguio</p>
+                <p>No Discount Outside Baguio</p>
+                <span class="price"></span>
+                <a href="#" class="buy-button">2,700 Php Buy Now</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need to negotiate, please don't hesitate to contact us:</p>
+            <address>
+                <p>Email: <a href="mailto:info@example.com">AtokBerryFarm@gmail.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </address>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input type="email" id="email" placeholder="Enter your email" name="email" required>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Product Landing Page</p>
+    </footer>
+</body>
+</html>
